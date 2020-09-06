@@ -63,11 +63,11 @@ hr {
 
 .zoom:hover {
   transform: scale(1.3);
+  transform: translate(0,-15px);
   z-index: 1;
   background-color: darkred;
   border-radius: 15px;
-  margin: 0 auto; /*agrego este margin para solucionar 
-                          el problema de movimiento de las otras*/
+  
 }
 
 p.cita {
@@ -80,3 +80,4 @@ p.cita {
 div.cita-oculta:hover p.cita {
   display: block;
 }
+
